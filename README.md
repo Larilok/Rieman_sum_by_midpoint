@@ -1,1 +1,1 @@
-# Rieman_sum_by_midpoint
+# Riemann_sum_by_midpoint
