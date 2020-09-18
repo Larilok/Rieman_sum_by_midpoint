@@ -5,7 +5,7 @@ const threadsNum: number = 1;
 const range: number[] = [0.5, 2];
 const firstStep: number = 0.0001, secondStep: number = 0.001
 const rangeStepInThread: number = gaussRound((range[1]-range[0]) / threadsNum, 4);
-const filePath: string = '/mnt/d/01_Code/Parallel programming/Riemann_sum_by_midpoint/dist/worker.js';
+const filePath: string = './dist/worker.js';
 
 // create a pool
 const pool = new poolW.StaticPool({
